@@ -1,13 +1,13 @@
 Install latest Python 
 - Make sure it's available to everyone
-- Preferably install 64 bit
-- in my case it's installed here: C:\Program Files\Python38
+- Preferably install the 64 bit version
+- in my case it's installed in this location: C:\Program Files\Python38
 
 
 Create virtual environment 
 - In your project folder run the following command to create one
 - python -m venv
-- You should see a .venv subfolder created. 
+- You should see a .venv subfolder created under your project folder. 
 - All pip packages will be installed locally in this folder
 - Say yes when VS Code ask if you want to switch to this virtual 
   environment

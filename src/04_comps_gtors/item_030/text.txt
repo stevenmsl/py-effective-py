@@ -1,0 +1,4 @@
+a generator function does not actually run but instead immediately returns an iterator
+with each call to the next built-in function, the iterator advances the generator to its next yield expression
+each value passed to yield by the generator is returned by the iterator to the caller
+this function is significantly easier to read because all interactions with the result list have been eliminated; results are passed to yield expressions instead
